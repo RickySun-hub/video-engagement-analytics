@@ -1,0 +1,20 @@
+{
+  "url": "https://zenodo.org/records/10439422/files/KuaiRand-1K.tar.gz",
+  "archive_md5": "6b0b9c8222d67fcd4c676218edca3f1f",
+  "archive_sha256": "dfaafbb5fd16e9e6d2f9a6adaa4ea25df20a14bc26a90961c136e26c00a7bb2c",
+  "archive_bytes": 1135436720,
+  "files": {
+    "log_standard_4_08_to_4_21_1k.csv": {
+      "bytes": 373670312,
+      "sha256": "355355897a84baa4df26b78b0271bb9a27b127a39cd7aa4a898cf86db0bc1810"
+    },
+    "log_standard_4_22_to_5_08_1k.csv": {
+      "bytes": 492303531,
+      "sha256": "548daf771e54e2b73086cc8e7c6f56787d44421f5026c2100421810e47ae9dd4"
+    },
+    "log_random_4_22_to_5_08_1k.csv": {
+      "bytes": 3086015,
+      "sha256": "e98841eabb3b078c812c4646bf0c5e3f0c947a4183dd950cb091e32377b9a849"
+    }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "dataset": "KuaiRand-1K",
+  "window": [
+    "2022-04-08",
+    "2022-05-08"
+  ],
+  "primary_population": "Valid deduplicated standard-policy logged exposures",
+  "summary": {
+    "exposures": 10683905,
+    "users": 1000,
+    "watch_hours": 46384.58891527428,
+    "capped_watch_hours": 42216.72770387216,
+    "seconds_per_exposure": 15.629539957065083,
+    "long_view_rate": 0.27407806415350944,
+    "completion_rate": 0.16531726929432639
+  },
+  "tail_sensitivity": {
+    "p99_winsorized_watch_share": 0.9485430272931984,
+    "above_p99_watch_share": 0.16294028444984593
+  },
+  "weekly_watch_change_hours": 1117.9315013885698,
+  "weekly_watch_change_pct": 10.949716544076404,
+  "shapley_hours": {
+    "active_users": 430.0236247312264,
+    "exposures_per_user": 1025.2175180708716,
+    "seconds_per_exposure": -337.3096414135296
+  },
+  "mix_change_seconds": -0.48875233202379853,
+  "mix_component_seconds": -0.33515910447327013,
+  "within_component_seconds": -0.15359322755009483,
+  "pooled_return": [
+    {
+      "horizon": 1,
+      "eligible_users": 1000,
+      "returned_users": 954,
+      "return_rate": 0.954,
+      "wilson_lower": 0.9391877960583809,
+      "wilson_upper": 0.9653375072367351
+    },
+    {
+      "horizon": 7,
+      "eligible_users": 995,
+      "returned_users": 929,
+      "return_rate": 0.9336683417085427,
+      "wilson_lower": 0.9164774102419069,
+      "wilson_upper": 0.9475235704732123
+    }
+  ],
+  "checks": {
+    "published_archive_counts": true,
+    "daily_exposure_reconciliation": true,
+    "duration_exposure_reconciliation": true,
+    "user_day_uniqueness": true,
+    "full_31_day_coverage": true,
+    "seven_days_each_comparison": true,
+    "policy_file_consistency": true,
+    "watch_identity": true,
+    "shapley_reconciliation": true,
+    "mix_reconciliation": true,
+    "censoring_denominators": true,
+    "audience_join_cardinality": true
+  },
+  "quality": {
+    "counts": {
+      "raw": 11756073,
+      "deduplicated": 11661848,
+      "classified": 11661848,
+      "events": 10725622,
+      "standard_events": 10683905,
+      "user_day": 27955
+    },
+    "null_counts": {
+      "user_id": 0,
+      "video_id": 0,
+      "date": 0,
+      "hourmin": 0,
+      "time_ms": 0,
+      "is_click": 0,
+      "is_like": 0,
+      "is_follow": 0,
+      "is_comment": 0,
+      "is_forward": 0,
+      "is_hate": 0,
+      "long_view": 0,
+      "play_time_ms": 0,
+      "duration_ms": 0,
+      "profile_stay_time": 0,
+      "comment_stay_time": 0,
+      "is_profile_enter": 0,
+      "is_rand": 0,
+      "tab": 0
+    },
+    "schema": [
+      {
+        "column_name": "user_id",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "video_id",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "date",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "hourmin",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "time_ms",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "is_click",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "is_like",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "is_follow",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "is_comment",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "is_forward",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "is_hate",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "long_view",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "play_time_ms",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "duration_ms",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "profile_stay_time",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "comment_stay_time",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "is_profile_enter",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "is_rand",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "tab",
+        "column_type": "BIGINT",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      },
+      {
+        "column_name": "source_file",
+        "column_type": "VARCHAR",
+        "null": "YES",
+        "key": null,
+        "default": null,
+        "extra": null
+      }
+    ],
+    "source_counts": [
+      {
+        "source_file": "log_standard_4_08_to_4_21_1k.csv",
+        "rows": 5055984
+      },
+      {
+        "source_file": "log_standard_4_22_to_5_08_1k.csv",
+        "rows": 6657061
+      },
+      {
+        "source_file": "log_random_4_22_to_5_08_1k.csv",
+        "rows": 43028
+      }
+    ],
+    "exact_duplicate_rows_removed": 94225,
+    "invalid_rows_excluded": 936226,
+    "users": 1000,
+    "videos": 3798524,
+    "first_date": "2022-04-08",
+    "last_date": "2022-05-08",
+    "extended_play_rows": 1767389,
+    "long_view_definition_mismatches": 55975,
+    "utc_plus_8_date_mismatches": 75566,
+    "p99_watch_seconds": 174.0097899999991,
+    "max_watch_seconds": 1529.347,
+    "candidate_key_duplicate_excess": 6995,
+    "policy_file_mismatches": 0,
+    "zero_duration_rows": 936226,
+    "zero_duration_standard_watch_hours": 1567.6712852777778,
+    "standard_recorded_long_view_rate": 0.27930948468748085
+  }
+}

@@ -1,0 +1,5 @@
+duckdb==1.4.4
+pandas==3.0.1
+numpy==2.3.5
+matplotlib==3.10.8
+nbformat==5.10.4

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-09-06T03:58:05.007240+00:00",
+  "python": "3.12.14",
+  "unit_tests": 14,
+  "data_checks": 12,
+  "unit_test_output": "test_missing_segment_not_invented (test_metrics.DecompositionTests.test_missing_segment_not_invented) ... ok\ntest_mix_matches_known_shift (test_metrics.DecompositionTests.test_mix_matches_known_shift) ... ok\ntest_order_independent (test_metrics.DecompositionTests.test_order_independent) ... ok\ntest_reconciles_mixed_directions_and_zero (test_metrics.DecompositionTests.test_reconciles_mixed_directions_and_zero) ... ok\ntest_single_driver (test_metrics.DecompositionTests.test_single_driver) ... ok\ntest_wilson_empty_and_boundaries (test_metrics.DecompositionTests.test_wilson_empty_and_boundaries) ... ok\ntest_exact_d7_not_within_7 (test_metrics.EventContractTests.test_exact_d7_not_within_7) ... ok\ntest_exact_duplicates_only (test_metrics.EventContractTests.test_exact_duplicates_only) ... ok\ntest_future_outcomes_not_in_features (test_metrics.EventContractTests.test_future_outcomes_not_in_features) ... ok\ntest_invalid_duration_quarantined (test_metrics.EventContractTests.test_invalid_duration_quarantined) ... ok\ntest_long_view_threshold (test_metrics.EventContractTests.test_long_view_threshold) ... ok\ntest_random_not_in_primary (test_metrics.EventContractTests.test_random_not_in_primary) ... ok\ntest_replay_kept_and_capped_separately (test_metrics.EventContractTests.test_replay_kept_and_capped_separately) ... ok\ntest_right_censoring (test_metrics.EventContractTests.test_right_censoring) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 1.436s\n\nOK\n",
+  "aggregate_verification": "PASS: published aggregate totals, return denominators, decomposition and identifier exclusion\n",
+  "browser_review": {
+    "status": "PASS",
+    "checked": "Report header, four-panel chart and active-users selector visually inspected; 31 SVG points; no browser console errors"
+  },
+  "source_sha256": {
+    "requirements.txt": "45cff79485101555fc99e9093141531bd6597e365b65bc593ca1d8faa1209bcf",
+    "scripts/analyze.py": "6cad4ec088ce8e1f65b3215b1efe6d34b5ac1443f270f0823db98bcaee195bdc",
+    "scripts/fetch_data.py": "19702f32a52e0229756d53e80c5b74f4537b52a2cddba99d0cc9c3b463435d27",
+    "scripts/metrics.py": "ee1b97aa38aa0db69fde570edda001031348af9d3a060806fef1062b3c464701",
+    "scripts/render_report.py": "e72c970db219feb1fc135c58f81c5cf0494fd904bd06170c35c102f981fe2b4f",
+    "scripts/verify_artifacts.py": "0579a757c3cdc930c038c3547eef6ed65673d6458878c92e66ba72d5a00fb869",
+    "sql/01_clean.sql": "5750dfbc19b4f79fa4886f9f63b0892cf085d7d707ec1dfe99ad4a5eece99cb4",
+    "sql/02_marts.sql": "5358af017c1459a1898a633d1191be71fdab52be46c8211668f6558fb44a0db5"
+  }
+}
